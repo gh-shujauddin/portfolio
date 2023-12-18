@@ -2,11 +2,9 @@ import React from 'react'
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-// import _default from '../../themes/default';
 
 export const Nav = styled.div`
     background-color: ${({theme}) => theme.card_light};
@@ -47,7 +45,9 @@ export const NavLogo = styled(LinkR)`
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
+    border: 0.5px solid ${({ theme }) => theme.white};
+    border-radius: 5px;
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -223,6 +223,12 @@ export const MobileNavLogo = styled(LinkR)`
   }
 `;
 
+const Icon = styled.img`
+  width: 30px;
+  height: 30px;
+  background: ${({ theme }) => theme.white};
+  padding: 2px;
+`;
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
@@ -231,7 +237,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            {/* <DiCssdeck size="3rem" /> <Icon src={homeicon} sizes='3rem'/>*/ }<Span>SQ</Span> 
           </a>
         </NavLogo>
         <MobileIcon>
@@ -259,9 +265,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
-            <MobileLink href='#experience' onClick={() => {
+            {/* <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Experience</MobileLink>
+            }}>Experience</MobileLink> */}
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
