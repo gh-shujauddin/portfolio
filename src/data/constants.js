@@ -161,7 +161,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fdel16-1.fna.fbcdn.net/v/t39.30808-6/299205877_447960957345526_2847813399708842275_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=6dNdMZzs3joAX8e--9a&_nc_ht=scontent.fdel16-1.fna&oh=00_AfDv0TubjwUxvWrOal8l29phfZ2YSfnCf8XKcnxsyBCsOw&oe=65826F07",
+    img: "../images/avs.jpg",
     school: "Anand Valley Sr. Sec. School, Someshwar",
     date: "Apr 2019 - Apr 2020",
     grade: "85.6%",
@@ -170,7 +170,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fdel16-1.fna.fbcdn.net/v/t39.30808-6/299205877_447960957345526_2847813399708842275_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=6dNdMZzs3joAX8e--9a&_nc_ht=scontent.fdel16-1.fna&oh=00_AfDv0TubjwUxvWrOal8l29phfZ2YSfnCf8XKcnxsyBCsOw&oe=65826F07",
+    img: "../images/avs.jpg",
     school: "Anand Valley Sr. Sec. School, Someshwar",
     date: "Apr 2017 - Apr 2018",
     grade: "90.6%",
