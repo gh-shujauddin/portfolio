@@ -161,7 +161,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "../images/avs.jpg",
+    img: "https://github.com/gh-shujauddin/portfolio/assets/73093103/f515ab18-35f8-44f1-ad14-c373935012fc",
     school: "Anand Valley Sr. Sec. School, Someshwar",
     date: "Apr 2019 - Apr 2020",
     grade: "85.6%",
@@ -170,7 +170,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "../images/avs.jpg",
+    img: "https://github.com/gh-shujauddin/portfolio/assets/73093103/f515ab18-35f8-44f1-ad14-c373935012fc",
     school: "Anand Valley Sr. Sec. School, Someshwar",
     date: "Apr 2017 - Apr 2018",
     grade: "90.6%",
