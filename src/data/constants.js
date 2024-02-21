@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/gh-shujauddin",
-  resume: "https://drive.google.com/file/d/1vTkcm4NONvMqZtWzWIQsZvs6A3lgvSIV/view?usp=drivesdk",
+  resume: "https://drive.google.com/file/d/15xtP8ueEGOL-43tKTFVbQ1qjCIqg4jhJ/view?usp=drivesdk", 
   linkedin: "https://www.linkedin.com/in/shqadri/",
   twitter: "https://twitter.com/sh__qadri",
   insta: "https://www.instagram.com/qadri.81/"
