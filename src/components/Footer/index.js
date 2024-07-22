@@ -89,7 +89,8 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Shujauddin Qadri</Logo>
+      <Logo>Shujauddin Qadri</Logo>
+
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -102,9 +103,9 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Shujauddin Qadri. All rights reserved.
-        </Copyright>
+        {/* <Copyright>
+          Made with ❤️ by Shujauddin Qadri
+        </Copyright> */}
 
       </FooterWrapper>
     </FooterContainer>
