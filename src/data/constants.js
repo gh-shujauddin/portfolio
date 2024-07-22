@@ -147,11 +147,21 @@ export const experiences = [
   {
     id: 0,
     img: "",
+    role: "Android Developer Intern",
+    company: "Adgama Digital",
+    date: "Mar 2024 - July 2024",
+    desc: "Developed multiple applications for clients, achieving a 100% project completion rate ahead of schedule. By leveraging Jetpack Compose, Kotlin, API integrations, Firebase authentication, and Firestore, I enhanced app efficiency by 30%. In collaboration with a team of developers, I contributed to the delivery of high-quality applications, which resulted in a 25% increase in team productivity. My involvement spanned the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.",
+    skills: ["Jetpack Compose", "Kotlin", "Firebase", "Firestore", "Retrofit", "Dagger-Hilt", "MVVM", "Room / SQLite database"],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: "",
     role: "Android Developer Executive",
     company: "Adgama Digital",
-    date: "Mar 2024 - Present",
-    desc: "",
-    skills: [""],
+    date: "July 2024 - Present",
+    // desc: "Developed multiple applications for clients, achieving a 100% project completion rate ahead of schedule. By leveraging Jetpack Compose, Kotlin, API integrations, Firebase authentication, and Firestore, I enhanced app efficiency by 30%. In collaboration with a team of developers, I contributed to the delivery of high-quality applications, which resulted in a 25% increase in team productivity. My involvement spanned the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.",
+    skills: ["Jetpack Compose", "Kotlin", "Firebase", "Firestore", "Retrofit", "Dagger-Hilt", "MVVM", "Room / SQLite database"],
     doc: "",
   },
 ];
@@ -192,15 +202,15 @@ export const projects = [
     title: "Tripzy",
     date: "May 2024",
     description:
-      "Crowd detection application which detects the number of faces on live camera. It uses ML Kit library to detect faces. It also tells the number of faces detected.",
+      "Tripzy is a Smart Travel Mobile Application that aims to provide details about the places to travel. User can plan new trip also where user will get curated list of places according to days which user can personalize.",
     image:
-      "https://github.com/gh-shujauddin/FaceCaptureApp/assets/73093103/3c8fc48b-b690-497c-a603-4b742f1b2bba",
-    tags: ["Kotlin", "ML Kit", "CameraX", "Firebase", "Android"],
+      "https://github.com/gh-shujauddin/Tripzy/assets/73093103/45329e04-95c7-4453-a004-9d153898ed28",
+    tags: ["Jetpack Compose", "Palm API", "Here API", "Places API", "Mapbox", "Android"],
     category: "android app",
 
     
-    github: "https://github.com/gh-shujauddin/FaceCaptureApp",
-    webapp: "https://github.com/gh-shujauddin/FaceCaptureApp",
+    github: "https://github.com/gh-shujauddin/Tripzy",
+    webapp: "https://github.com/gh-shujauddin/Tripzy",
     members: [
       {
         name: "Shujauddin Qadri",
@@ -211,7 +221,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Face Capture",
     date: "Sep 2023",
     description:
@@ -232,7 +242,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "ChatBT",
     date: "Jun 2023 - Jul 2023",
     description:

@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import Experience from './components/Experience'; // Commented out to remove the experience section
+import Experience from './components/Experience'; 
 import { BrowserRouter as Router } from 'react-router-dom';
 import Projects from './components/Projects';
 import ProjectDetails from './components/ProjectDetails';
@@ -48,7 +48,7 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            {/* <Experience /> Commented out to remove the experience section */ }  
+             <Experience />   
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
