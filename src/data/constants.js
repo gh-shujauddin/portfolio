@@ -151,7 +151,16 @@ export const experiences = [
     company: "Adgama Digital",
     date: "Mar 2024 - July 2024",
     desc: "Developed multiple applications for clients, achieving a 100% project completion rate ahead of schedule. By leveraging Jetpack Compose, Kotlin, API integrations, Firebase authentication, and Firestore, I enhanced app efficiency by 30%. In collaboration with a team of developers, I contributed to the delivery of high-quality applications, which resulted in a 25% increase in team productivity. My involvement spanned the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.",
-    skills: ["Jetpack Compose", "Kotlin", "Firebase", "Firestore", "Retrofit", "Dagger-Hilt", "MVVM", "Room / SQLite database"],
+    skills: [
+      "Jetpack Compose",
+      "Kotlin",
+      "Firebase",
+      "Firestore",
+      "Retrofit",
+      "Dagger-Hilt",
+      "MVVM",
+      "Room / SQLite database",
+    ],
     doc: "",
   },
   {
@@ -161,7 +170,16 @@ export const experiences = [
     company: "Adgama Digital",
     date: "July 2024 - Present",
     // desc: "Developed multiple applications for clients, achieving a 100% project completion rate ahead of schedule. By leveraging Jetpack Compose, Kotlin, API integrations, Firebase authentication, and Firestore, I enhanced app efficiency by 30%. In collaboration with a team of developers, I contributed to the delivery of high-quality applications, which resulted in a 25% increase in team productivity. My involvement spanned the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.",
-    skills: ["Jetpack Compose", "Kotlin", "Firebase", "Firestore", "Retrofit", "Dagger-Hilt", "MVVM", "Room / SQLite database"],
+    skills: [
+      "Jetpack Compose",
+      "Kotlin",
+      "Firebase",
+      "Firestore",
+      "Retrofit",
+      "Dagger-Hilt",
+      "MVVM",
+      "Room / SQLite database",
+    ],
     doc: "",
   },
 ];
@@ -205,10 +223,16 @@ export const projects = [
       "Tripzy is a Smart Travel Mobile Application that aims to provide details about the places to travel. User can plan new trip also where user will get curated list of places according to days which user can personalize.",
     image:
       "https://github.com/gh-shujauddin/Tripzy/assets/73093103/45329e04-95c7-4453-a004-9d153898ed28",
-    tags: ["Jetpack Compose", "Palm API", "Here API", "Places API", "Mapbox", "Android"],
+    tags: [
+      "Jetpack Compose",
+      "Palm API",
+      "Here API",
+      "Places API",
+      "Mapbox",
+      "Android",
+    ],
     category: "android app",
 
-    
     github: "https://github.com/gh-shujauddin/Tripzy",
     webapp: "https://github.com/gh-shujauddin/Tripzy",
     members: [
@@ -221,38 +245,24 @@ export const projects = [
     ],
   },
   {
-    id: 2,
-    title: "Face Capture",
-    date: "Sep 2023",
+    id: 4,
+    title: "Yam Eats",
+    date: "Jan 2024 - Mar 2024",
     description:
-      "Crowd detection application which detects the number of faces on live camera. It uses ML Kit library to detect faces. It also tells the number of faces detected.",
+      "Yam Eats is a mobile application built with React Native and AWS Amplify, allowing users to browse restaurants, add dishes to their baskets, place orders, and track live orders on a map.",
     image:
-      "https://github.com/gh-shujauddin/FaceCaptureApp/assets/73093103/3c8fc48b-b690-497c-a603-4b742f1b2bba",
-    tags: ["Kotlin", "ML Kit", "CameraX", "Firebase", "Android"],
-    category: "android app",
-    github: "https://github.com/gh-shujauddin/FaceCaptureApp",
-    webapp: "https://github.com/gh-shujauddin/FaceCaptureApp",
-    members: [
-      {
-        name: "Shujauddin Qadri",
-        img: "https://avatars.githubusercontent.com/u/73093103?v=4",
-        linkedin: "https://www.linkedin.com/in/shqadri",
-        github: "https://www.github.com/gh-shujauddin",
-      },
+      "https://github.com/user-attachments/assets/e0e1d82b-4930-44a5-b64d-e331f72a5f56",
+    tags: [
+      "Android/IOS",
+      "React Native",
+      "React",
+      "Ant Design",
+      "Places API",
+      "AWS Amplify",
     ],
-  },
-  {
-    id: 3,
-    title: "ChatBT",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Simple Bluetooth Chat application built to demonstrate the use of modern android architecture component with MVVM Architecture and bluetooth services.",
-    image:
-      "https://github.com/gh-shujauddin/ChatBT/assets/73093103/6e475fcf-a95e-4d98-ad74-9d5265cc3ca7",
-    tags: ["Android", "Kotlin", "MVVM", "Bluetooth", "Flow", "Jetpack Compose"],
-    category: "android app",
-    github: "https://github.com/gh-shujauddin/ChatBT",
-    webapp: "https://github.com/gh-shujauddin/ChatBT",
+    category: "cross-platform app",
+    github: "https://github.com/gh-shujauddin/Yam-Eats",
+    webapp: "https://github.com/gh-shujauddin/Yam-Eats",
     members: [
       {
         name: "Shujauddin Qadri",
@@ -302,6 +312,49 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 2,
+    title: "Face Capture",
+    date: "Sep 2023",
+    description:
+      "Crowd detection application which detects the number of faces on live camera. It uses ML Kit library to detect faces. It also tells the number of faces detected.",
+    image:
+      "https://github.com/gh-shujauddin/FaceCaptureApp/assets/73093103/3c8fc48b-b690-497c-a603-4b742f1b2bba",
+    tags: ["Kotlin", "ML Kit", "CameraX", "Firebase", "Android"],
+    category: "android app",
+    github: "https://github.com/gh-shujauddin/FaceCaptureApp",
+    webapp: "https://github.com/gh-shujauddin/FaceCaptureApp",
+    members: [
+      {
+        name: "Shujauddin Qadri",
+        img: "https://avatars.githubusercontent.com/u/73093103?v=4",
+        linkedin: "https://www.linkedin.com/in/shqadri",
+        github: "https://www.github.com/gh-shujauddin",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "ChatBT",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "A Simple Bluetooth Chat application built to demonstrate the use of modern android architecture component with MVVM Architecture and bluetooth services.",
+    image:
+      "https://github.com/gh-shujauddin/ChatBT/assets/73093103/6e475fcf-a95e-4d98-ad74-9d5265cc3ca7",
+    tags: ["Android", "Kotlin", "MVVM", "Bluetooth", "Flow", "Jetpack Compose"],
+    category: "android app",
+    github: "https://github.com/gh-shujauddin/ChatBT",
+    webapp: "https://github.com/gh-shujauddin/ChatBT",
+    members: [
+      {
+        name: "Shujauddin Qadri",
+        img: "https://avatars.githubusercontent.com/u/73093103?v=4",
+        linkedin: "https://www.linkedin.com/in/shqadri",
+        github: "https://www.github.com/gh-shujauddin",
+      },
+    ],
+  },
+  
 ];
 
 export const TimeLineData = [

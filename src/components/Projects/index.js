@@ -124,6 +124,11 @@ const Projects = ({openModal,setOpenModal}) => {
                         (<ToggleButton active values="android" onClick={() => setActive("android app")}>ANDROID APPS</ToggleButton>) :
                         (<ToggleButton values="android" onClick={() => setActive("android app")}>ANDROID APPS</ToggleButton>)
                     }
+                    <Divider />
+                    {active === 'cross-platform app' ?
+                        (<ToggleButton active values="cross-platform" onClick={() => setActive("cross-platform app")}>CROSS-PLATFORM APPS</ToggleButton>) :
+                        (<ToggleButton values="cross-platform" onClick={() => setActive("cross-platform app")}>CROSS-PLATFORM APPS</ToggleButton>)
+                    }
 
                 </ToggleGroup>
                 <CardContainer>
